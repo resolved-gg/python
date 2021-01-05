@@ -9,7 +9,7 @@ import traceback
 BASE_URL = "https://tasks.resolved.gg/api/v1"
 
 
-class ReSolved:
+class Resolved:
     def __init__(self, company_api_key, user_api_key):
         self.company_api_key = company_api_key
         self.user_api_key = user_api_key

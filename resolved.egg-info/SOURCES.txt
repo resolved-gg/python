@@ -1,0 +1,7 @@
+README.md
+setup.py
+resolved.egg-info/PKG-INFO
+resolved.egg-info/SOURCES.txt
+resolved.egg-info/dependency_links.txt
+resolved.egg-info/requires.txt
+resolved.egg-info/top_level.txt
