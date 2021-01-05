@@ -1,7 +1,8 @@
 README.md
 setup.py
-resolved.egg-info/PKG-INFO
-resolved.egg-info/SOURCES.txt
-resolved.egg-info/dependency_links.txt
-resolved.egg-info/requires.txt
-resolved.egg-info/top_level.txt
+reSolved.egg-info/PKG-INFO
+reSolved.egg-info/SOURCES.txt
+reSolved.egg-info/dependency_links.txt
+reSolved.egg-info/top_level.txt
+resolved/__init__.py
+resolved/domlabs.py

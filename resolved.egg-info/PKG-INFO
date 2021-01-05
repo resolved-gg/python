@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
-Name: resolved
+Name: reSolved
 Version: 0.0.1
 Summary: reSolved is an upcoming captcha solving service, capable of solving reCaptcha, hCaptcha, GeeTest as fast as sub 5 seconds. reSolved is designed to handle heavy workloads, unlike other captcha solving services. We strive to improve the reSolved experience every single day - which is why we are releasing libraries that make an already simple integration process completely seamless.
-Home-page: https://github.com/resolved-gg/python/
+Home-page: https://github.com/pypa/sampleproject
 Author: mechaadi
 Author-email: as808780@gmail.com
-License: MIT
+License: UNKNOWN
 Description: # reSolved python library
         
         reSolved is an upcoming captcha solving service, capable of solving reCaptcha, hCaptcha, GeeTest as fast as sub 5 seconds. reSolved is designed to handle heavy workloads, unlike other captcha solving services. 
@@ -72,7 +72,8 @@ Description: # reSolved python library
         ```
         
 Platform: UNKNOWN
-Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
-Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
 Description-Content-Type: text/markdown

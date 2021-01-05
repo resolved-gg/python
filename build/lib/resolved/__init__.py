@@ -1,0 +1,1 @@
+from resolved.domlabs import Resolved

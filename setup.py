@@ -1,28 +1,23 @@
-import pathlib
-from setuptools import setup
+import setuptools
 
-# The directory containing this file
-HERE = pathlib.Path(__file__).parent
 
-# The text of the README file
-README = (HERE / "README.md").read_text()
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
-# This call to setup() does all the work
-setup(
-    name="resolved",
+setuptools.setup(
+    name="reSolved", # Replace with your own username
     version="0.0.1",
-    description="reSolved is an upcoming captcha solving service, capable of solving reCaptcha, hCaptcha, GeeTest as fast as sub 5 seconds. reSolved is designed to handle heavy workloads, unlike other captcha solving services. We strive to improve the reSolved experience every single day - which is why we are releasing libraries that make an already simple integration process completely seamless.",
-    long_description=README,
-    long_description_content_type="text/markdown",
-    url="https://github.com/resolved-gg/python/",
     author="mechaadi",
     author_email="as808780@gmail.com",
-    license="MIT",
+    description="reSolved is an upcoming captcha solving service, capable of solving reCaptcha, hCaptcha, GeeTest as fast as sub 5 seconds. reSolved is designed to handle heavy workloads, unlike other captcha solving services. We strive to improve the reSolved experience every single day - which is why we are releasing libraries that make an already simple integration process completely seamless.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/pypa/sampleproject",
+    packages=setuptools.find_packages(),
     classifiers=[
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
     ],
-    install_requires=['requests'],
-    include_package_data=True,
+    python_requires='>=3.6',
 )
