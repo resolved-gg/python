@@ -8,13 +8,13 @@ We strive to improve the reSolved experience every single day - which is why we 
 # Getting Started
 ### Installation
 ```
-pip install py-resolved
+pip install reSolved
 ```
 
 
 ### Import the library
 ```py
-from src.reSolved import ReSolved
+from resolved.domlabs import Resolved
 ```
 
 ### Initialize an object
