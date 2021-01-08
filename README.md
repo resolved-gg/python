@@ -27,9 +27,9 @@ resolved = ReSolved(COMPANY_API_KEY, USER_API_KEY')
 ### Create a task and get the solved captcha token
 ```py
 task = resolved.createTask(
-        SITE_KEY",              # string
+        SITE_KEY,               # string
         SITE_URL,               # string
-        CAPTCHA_SERVICE",       # string - e.g., reCaptcha, hCaptcha etc
+        CAPTCHA_SERVICE,        # string - e.g., reCaptcha, hCaptcha etc
         CAPTCHA_TYPE,           # string - e.g, v2Invis/v2
         SESSION_CLONE,          # boolean
         SMART_MOVEMENT,         # boolean
@@ -49,9 +49,9 @@ resolved = ReSolved(COMPANY_API_KEY, USER_API_KEY')
 
 # create a task
 task = resolved.createTask(
-        SITE_KEY",              # string
+        SITE_KEY,               # string
         SITE_URL,               # string
-        CAPTCHA_SERVICE",       # string - e.g., reCaptcha, hCaptcha etc
+        CAPTCHA_SERVICE,        # string - e.g., reCaptcha, hCaptcha etc
         CAPTCHA_TYPE,           # string - e.g, v2Invis/v2
         SESSION_CLONE,          # boolean
         SMART_MOVEMENT,         # boolean
