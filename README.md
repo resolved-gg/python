@@ -19,7 +19,7 @@ from resolved.domlabs import Resolved
 
 ### Initialize an object
 ```py
-resolved = ReSolved(COMPANY_API_KEY, USER_API_KEY')
+resolved = ReSolved(COMPANY_API_KEY, USER_API_KEY)
 
 ```
 
@@ -45,7 +45,7 @@ token = resolved.getToken()
 from src.reSolved import ReSolved
 
 # create a resolved object
-resolved = ReSolved(COMPANY_API_KEY, USER_API_KEY')
+resolved = ReSolved(COMPANY_API_KEY, USER_API_KEY)
 
 # create a task
 task = resolved.createTask(
